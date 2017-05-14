@@ -1,0 +1,70 @@
+ConfigurationWidget {
+    background-color:#34495e;
+    border:5px solid #2c3e50;
+}
+
+ConfigurationWidget QLabel {
+     color: #FEFEFE;
+     font-size:16px;
+}
+
+ConfigurationWidget QFrame#topFrame {
+    background-color:#2c3e50;
+}
+
+ConfigurationWidget QRadioButton {
+    color: #FEFEFE;
+    font-size:16px;
+}
+
+ConfigurationWidget QRadioButton::indicator {
+    background-color:#34495e;
+    width:8px;
+    height:8px;
+    border-radius: 12px;
+    border: 8px solid #2c3e50;
+}
+
+ConfigurationWidget QRadioButton::indicator:checked {
+    background-color:#FEFEFE;
+    border-radius: 12px;
+}
+
+ConfigurationWidget QFrame#line1,
+ConfigurationWidget QFrame#line2,
+ConfigurationWidget QFrame#line3 {
+    color: #2c3e50;
+}
+
+ConfigurationWidget QPushButton {
+    background-color:#2c3e50;
+    border:none;
+}
+
+
+
+SizeSelectionWidget {
+    background-color:#34495e;
+    border:5px solid #2c3e50;
+}
+
+SizeSelectionWidget QLabel#labelTitle {
+    background-color:#2c3e50;
+    color: #FEFEFE;
+    font-size:16px;
+    padding-left:10px;
+}
+
+SizeSelectionWidget QSpinBox {
+    background-color:#34495e;
+    color: #FEFEFE;
+    font-size:20px;
+    border:2px solid #FEFEFE;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+}
+
+
+
+
